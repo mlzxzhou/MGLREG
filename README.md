@@ -3,7 +3,7 @@
 
 ## Features
 * It considers the multiple-group case instead of the traditinal case-control status
-* We also include the regression model to deal with the two-phase sample other than the simple single-phase study.
+* Multiple-phase scenario is supported if the data is collected at different time points.
 
 
 ## Installation
