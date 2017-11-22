@@ -1,0 +1,26 @@
+Package: MGLREG
+Type: Package
+Title: Multiple-Group sample based Linear Regression model
+Version: 1.0
+Date: 2017-10-18
+Depends:
+    R (>= 3.1.1)
+Author: Fan Zhou, Haibo Zhou, Hongtu Zhu
+Maintainer: Fan Zhou <mlzxzhou@live.unc.edu>
+Description: The aim of this package is to develop a general regression framework for 
+             the analysis of secondary phenotypes collected in multiple group 
+             association studies. Our regression framework is built on a conditional 
+             model for the secondary outcome given the multiple group status and 
+             covariates and its relationship with the population regression of 
+             interest of the secondary outcome given covariates. Then, we develop 
+             generalized estimating equations to estimate parameters of interest. We 
+             use simulations and a large-scale imaging genetic data analysis of the 
+             ADNI data to evaluate the effects of the multiple group sampling scheme 
+             on genome-wide association study (GWAS) results based on some standard 
+             statistical methods, such as linear regression methods, while comparing 
+             it with our statistical methods that appropriately adjust for the 
+             multiple group sampling scheme.
+License: GPL-2 | GPL-3
+Imports: MASS,nnet,Rcpp
+RoxygenNote: 6.0.1
+LinkingTo: Rcpp, RcppArmadillo
