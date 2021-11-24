@@ -24,7 +24,7 @@ devtools::install_github("mlzxzhou/MGLREG")
 ## Using MGLREG
 Function 'MGLReg' works for the single-phase three-group sample. By running the example we provide in the document 'MGLReg.Rd', you could exactly copy the simulation study of the reference shown below. On the other hand, we also offer a function called 'MGLReg2', which could handle the two-phase situation, which may be used when you want to do real data analysis on some two-phase studies such as ADNI.  
 
-* Zhou, F., Zhou, H., Li, T. & Zhu, HT. Analysis of Secondary Phenotypes in Multiple-group Association Studies
+** Zhou, F., Zhou, H., Li, T. & Zhu, HT. Analysis of Secondary Phenotypes in Multiple-group Association Studies **
 
 
 ## Simulation
